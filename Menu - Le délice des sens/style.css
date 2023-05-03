@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .card {
-  background: #F7F7F7;
+  background: #f7f7f7;
   position: relative;
   margin-top: -70px;
   width: 100%;
@@ -28,7 +28,7 @@
 }
 
 .border-test {
-  border-bottom: 3px solid #99E2D0;
+  border-bottom: 3px solid #99e2d0;
   padding-bottom: 5px;
   width: 40px;
   padding-top: 20px;
@@ -52,7 +52,7 @@
 .button-card .flex-check {
   position: relative;
   left: 200px;
-  background: #99E2D0;
+  background: #99e2d0;
   display: none;
 }
 
@@ -81,9 +81,8 @@
   }
 }
 .check {
-  background: white;
-  border-radius: 50%;
-  color: #99E2D0;
+  background: #99e2d0;
+  color: white;
   font-size: 22px;
 }
 
