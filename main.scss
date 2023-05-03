@@ -1,0 +1,24 @@
+@import "./sass/layout/footer";
+@import "./sass/layout/header";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: inherit;
+    color: inherit;
+    font-family: 'Roboto';
+    text-decoration: none;
+  
+    h1, h2 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0em;
+    }
+  }
+  
+  .font-h1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  

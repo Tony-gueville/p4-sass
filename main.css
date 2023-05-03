@@ -1,0 +1,66 @@
+footer {
+  padding: 30px;
+  background: #353535;
+  padding-right: 100px;
+}
+footer .logo-footer {
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+footer nav {
+  color: white;
+}
+footer .icon-footer {
+  font-size: 11px;
+  padding-right: 15px;
+}
+footer ul {
+  list-style: none;
+}
+
+.entete {
+  text-align: center;
+}
+.entete .logo {
+  height: 44px;
+  width: 162px;
+  left: 16px;
+  top: 0px;
+  border-radius: nullpx;
+}
+.entete header {
+  padding-top: 10px;
+}
+
+.feedback {
+  position: absolute;
+  padding-top: 28px;
+  font-size: 20px;
+  left: 45px;
+  color: #353535;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: inherit;
+  color: inherit;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+* h1, * h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.font-h1 {
+  padding-left: 40px;
+  padding-right: 40px;
+}/*# sourceMappingURL=main.css.map */
