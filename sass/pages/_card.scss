@@ -1,0 +1,135 @@
+.card {
+    background: #F7F7F7;
+    position: relative;
+    margin-top: -70px;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    padding: 15px 15px 0px 15px;
+    overflow: hidden;
+  }
+  
+  .button-menu {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    height: 68.07px;
+    padding: 15px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+  
+  }
+  
+  .button-card {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .border-test {
+    border-bottom: 3px solid #99E2D0;
+    padding-bottom: 5px;
+    width: 40px;
+    padding-top: 20px;
+  }
+  
+  .flex-align {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card h1 {
+    padding-top: 20px;
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 41px;
+    text-align: left;
+  }
+  
+  .button-card .flex-check {
+    position: relative;
+    left: 200px;
+    background: #99E2D0;
+    display: none;
+  
+  }
+  
+  .button-card:hover .flex-check {
+    animation: appearin 0.2s ease-in-out;
+    height: 68px;
+    width: 68px;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: appearin 0.2s ease-in-out;
+    position: relative;
+    left: 0;
+  
+  }
+  @keyframes appearin {
+    from { opacity: 0; transform: translateX(50px); } 
+    to { opacity: 1; transform: translateX(0px); }
+  }
+  .check {
+    background: white;
+    border-radius: 50%;
+    color: #99E2D0;
+    font-size: 22px;
+  }
+  
+  .button-card:hover .button-menu {
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  .entrees{
+    opacity: 0; /* masquer l'élément */
+    transform: translateX(100%); /* positionner l'élément en dehors de l'écran à droite */
+    animation: apparition 1s ease forwards; /* définir l'animation */
+  }
+  .plats{
+    opacity: 0; /* masquer l'élément */
+    transform: translateX(100%); /* positionner l'élément en dehors de l'écran à droite */
+    animation: apparition 2s ease forwards; /* définir l'animation */
+  }
+  .dessert{
+    opacity: 0; /* masquer l'élément */
+    transform: translateX(100%); /* positionner l'élément en dehors de l'écran à droite */
+    animation: apparition 3s  ease forwards; /* définir l'animation */
+    
+  }
+  
+  @keyframes apparition {
+    0% {
+      opacity: 0;
+      transform: translateX(100%); /* positionner l'élément en dehors de l'écran à droite */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* positionner l'élément à gauche */
+    }
+  }
+  
+   .prt{
+    display: flex;
+      flex-direction: column-reverse;
+  }
+   
+  .text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .text-card {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  
+  
+  

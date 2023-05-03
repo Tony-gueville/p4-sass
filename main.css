@@ -1,3 +1,25 @@
+.entete {
+  text-align: center;
+}
+.entete .logo {
+  height: 44px;
+  width: 162px;
+  left: 16px;
+  top: 0px;
+  border-radius: nullpx;
+}
+.entete header {
+  padding-top: 10px;
+}
+
+.feedback {
+  position: absolute;
+  padding-top: 28px;
+  font-size: 20px;
+  left: 45px;
+  color: #353535;
+}
+
 footer {
   padding: 30px;
   background: #353535;
@@ -20,28 +42,6 @@ footer .icon-footer {
 }
 footer ul {
   list-style: none;
-}
-
-.entete {
-  text-align: center;
-}
-.entete .logo {
-  height: 44px;
-  width: 162px;
-  left: 16px;
-  top: 0px;
-  border-radius: nullpx;
-}
-.entete header {
-  padding-top: 10px;
-}
-
-.feedback {
-  position: absolute;
-  padding-top: 28px;
-  font-size: 20px;
-  left: 45px;
-  color: #353535;
 }
 
 * {
