@@ -67,16 +67,6 @@
   position: relative;
   left: 0;
 }
-@keyframes appearin {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
 .check {
   background: #99e2d0;
 
@@ -110,19 +100,6 @@
   animation: apparition 3s ease forwards; /* définir l'animation */
 }
 
-@keyframes apparition {
-  0% {
-    opacity: 0;
-    transform: translateX(
-      100%
-    ); /* positionner l'élément en dehors de l'écran à droite */
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0); /* positionner l'élément à gauche */
-  }
-}
-
 .prt {
   display: flex;
   flex-direction: column-reverse;
@@ -139,4 +116,27 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 100%;
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    transform: translateX(
+      100%
+    ); /* positionner l'élément en dehors de l'écran à droite */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* positionner l'élément à gauche */
+  }
+}
+@keyframes appearin {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

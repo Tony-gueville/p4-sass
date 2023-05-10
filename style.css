@@ -121,7 +121,7 @@
 }
 .card .heart-solid:hover {
   opacity: 1;
-  transition: opacity 200ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 .card .heart-solid {
   position: absolute;
@@ -134,7 +134,7 @@
   background: -webkit-linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 1.5s;
+  transition: 1s;
 }
 
 .nouveau {

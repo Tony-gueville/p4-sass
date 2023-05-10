@@ -1,28 +1,24 @@
-
 footer {
-    padding: 30px;
-    background: #353535;
-    padding-right: 100px;
+  padding: 30px;
+  background: #353535;
+  padding-right: 100px;
 
-    .logo-footer{
-        font-family: 'Shrikhand';
-        font-style: italic;
-        font-weight: 900;
-        font-size: 18px;
-        line-height: 26px;
-        color: #FFFFFF;
-        
-    
-    }
-    nav {
-        color: white;
-    }
-    .icon-footer{
-        font-size: 11px;
-        padding-right: 15px;
-    }
-    ul{
-        list-style: none;
-       
-    }
+  .logo-footer {
+    font-family: "Shrikhand";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  nav {
+    color: white;
+  }
+  .icon-footer {
+    font-size: 11px;
+    padding-right: 15px;
+  }
+  ul {
+    list-style: none;
+  }
 }
