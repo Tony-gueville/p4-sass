@@ -14,11 +14,12 @@
   background-color: white;
   box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
   height: 68.07px;
-  padding: 15px;
+  padding-left: 15px;
   width: 100%;
   justify-content: space-between;
   display: flex;
   overflow: hidden;
+  align-items: center;
 }
 
 .button-card {
@@ -48,7 +49,11 @@
   line-height: 41px;
   text-align: left;
 }
-
+.text-card h4{
+  text-overflow: inherit;
+  overflow: hidden;
+  
+}
 .button-card .flex-check {
   position: relative;
   left: 200px;
@@ -58,7 +63,7 @@
 
 .button-card:hover .flex-check {
   animation: appearin 0.2s ease-in-out;
-  height: 68px;
+  height: 69px;
   width: 68px;
   border-radius: 0px 15px 15px 0px;
   display: flex;
@@ -87,7 +92,7 @@
 }
 
 .button-card:hover .button-menu {
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 15px;
 }
 
 .entrees {
@@ -120,9 +125,16 @@
 }
 .prt {
   display: flex;
-  flex-direction: column-reverse;
+  
 }
+.prt p  {
 
+  display: flex;
+  margin-bottom: 18px;
+    align-items: end;
+    margin-right: 15px;
+    padding-top: 25px
+}
 .text-overflow {
   overflow: hidden;
   text-overflow: ellipsis;
