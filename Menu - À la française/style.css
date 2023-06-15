@@ -181,6 +181,13 @@
 .icon-gap {
   margin-left: 50px;
 }
+.button-reservez:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.486);
+  transform: scale(1.06);
+  transition: transform 1s ease-in-out;
+  background: linear-gradient(200.64deg, $purple -5.2%, #ff79da 110.74%);
+  cursor: pointer;
+}
 
 .entete {
   padding: 15px;
