@@ -1,0 +1,26 @@
+.heart {
+  position: absolute;
+  right: 20px;
+  left: unset;
+  padding-top: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: red($color: #dc1111);
+}
+.heart-solid:hover {
+  opacity: 1;
+  transition: 200ms ease-in-out;
+}
+.heart-solid {
+  position: absolute;
+  right: 20px;
+  left: unset;
+  padding-top: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0;
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s;
+}
